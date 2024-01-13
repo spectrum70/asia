@@ -1,0 +1,62 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0cc0a943-fc71-4462-ba1a-fec4fe07e3e4)
+
+  (paper "A3")
+
+  (title_block
+    (title "aria")
+    (date "03-10-2023")
+    (rev "0.91(alpha)")
+    (company "kernelspace")
+    (comment 1 "Small, cheap and quite performant Linux embedded core board")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "SoC : Nationalchip GX6605S C-SKY ISA V1 CK610M 32-bit processor @ 574 MHz\n\nQFN68"
+    (at 31.75 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 753ef33e-9a44-42e4-b558-35eb5915d6ab)
+  )
+
+  (sheet (at 35.56 43.18) (size 43.18 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 48b253bd-9790-45dc-bbf8-959cdf830f7f)
+    (property "Sheetname" "power" (at 35.56 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 35.56 52.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "asia"
+        (path "/0cc0a943-fc71-4462-ba1a-fec4fe07e3e4" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 35.56 58.42) (size 43.18 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d0d9f905-29e8-4be0-81c9-301a155a7869)
+    (property "Sheetname" "cpu" (at 35.56 57.7084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cpu.kicad_sch" (at 35.56 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "asia"
+        (path "/0cc0a943-fc71-4462-ba1a-fec4fe07e3e4" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
